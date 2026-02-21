@@ -30,7 +30,7 @@ const player = {
 };
 
 // SOUNDS
-const bgMusic = new Audio("assets/JAYEMM-Birkin-Bag.mp3");
+const bgMusic = new Audio("assets/Dave-ft-Tems-Raindance-(TrendyBeatz.com).mp3");
 bgMusic.loop = true;
 bgMusic.volume = 0.3;
 
@@ -269,4 +269,5 @@ fullscreenBtn.addEventListener("click", async () => {
 // SERVICE WORKER FOR PWA
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
+
 }
